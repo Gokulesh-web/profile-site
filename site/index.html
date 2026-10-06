@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gokulesh RY | Cloud Infrastructure, DevOps and IT Operations</title>
+<meta name="description" content="Cloud Infrastructure and IT Operations professional with 8+ years across AWS, Azure, Kubernetes, Terraform and CI/CD. Senior Cloud Engineer at Talks &amp; Talks.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<style>
+:root{--bg:#070d17;--card:#0c1522;--ink:#f1f5f9;--mute:#9aa8ba;--line:#1b2a3c;--c1:#22d3ee;--c2:#8b5cf6;--on:#04202a;
+--sans:"Space Grotesk","Segoe UI",system-ui,sans-serif;--mono:"JetBrains Mono",ui-monospace,Consolas,monospace}
+[data-theme=light]{--bg:#f4f7fb;--card:#fff;--ink:#0b1626;--mute:#53647a;--line:#d5dee9;--c1:#0891b2;--c2:#6d3ff0;--on:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.7 var(--sans)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--c1);outline-offset:3px}
+.mono{font-family:var(--mono);letter-spacing:.22em;text-transform:uppercase;font-size:.78rem;color:var(--c1)}
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{max-width:68rem;margin:0 auto;padding:.9rem 1.25rem;display:flex;align-items:center;gap:.75rem}
+.brand{margin-right:auto;text-decoration:none}.brand b{display:block;font:700 1.15rem var(--sans);letter-spacing:.2em}
+.seg{display:flex;border:1px solid var(--line);border-radius:99px;padding:3px}
+.seg button,.menu{font:600 .72rem var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--mute);background:none;border:0;border-radius:99px;padding:.5rem .8rem;cursor:pointer}
+.seg button[aria-pressed=true]{background:color-mix(in srgb,var(--c1) 18%,transparent);color:var(--c1)}
+.menu{border:1px solid var(--line);border-radius:14px;font-size:1.2rem;padding:.35rem .8rem;color:var(--ink)}
+nav{display:none;max-width:68rem;margin:0 auto;padding:0 1.25rem 1rem}nav.open{display:grid}
+nav a{padding:.7rem 0;border-top:1px solid var(--line);text-decoration:none}
+main{max-width:68rem;margin:0 auto;padding:1.5rem 1.25rem 6rem}
+.hero{display:grid;gap:2rem;grid-template-columns:1fr}
+.card{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:1.75rem;text-align:center}
+.card h2{font:700 1.9rem var(--sans);margin:.2rem 0}.card p{color:var(--mute);margin:.6rem 0 1.2rem}
+.icons{display:grid;grid-template-columns:repeat(2,1fr);gap:.75rem;margin-bottom:.75rem}
+.icons a,.btns a{display:flex;justify-content:center;align-items:center;gap:.5rem;border:1px solid var(--line);border-radius:18px;padding:.9rem;text-decoration:none;font-weight:500}
+.icons svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.8}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+.btns .go{background:linear-gradient(135deg,var(--c1),color-mix(in srgb,var(--c1) 60%,#fff));color:var(--on);border-color:transparent;font-weight:700}
+.chip{display:inline-flex;align-items:center;gap:.75rem;font-weight:700;font-size:1.15rem;margin:.5rem 0 1rem}
+.chip i{display:grid;place-items:center;width:2.4rem;height:2.4rem;border:1px solid var(--line);border-radius:10px;font-style:normal}
+h1{font:700 clamp(2.6rem,9vw,4.6rem)/1.05 var(--sans);letter-spacing:-.02em;margin:0 0 1rem;min-height:2.2em}
+.g{background:linear-gradient(90deg,var(--c1),var(--c2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.caret{display:inline-block;width:3px;height:.9em;background:var(--ink);vertical-align:-.08em;animation:b 1s steps(2) infinite}
+@keyframes b{50%{opacity:0}}
+.loc{display:flex;gap:.6rem;align-items:center;font-size:1.2rem}.loc svg{stroke:var(--c1);fill:none;stroke-width:1.8;width:26px}
+.lede{color:var(--mute);font-size:1.15rem}.lede b{color:var(--c1)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);margin-top:2rem}
+.stats div{padding:1.5rem 0;border-left:1px solid var(--line);padding-left:1rem}.stats div:first-child{border:0;padding-left:0}
+.stats strong{display:block;font:700 2.2rem/1 var(--sans)}.stats span{color:var(--mute);font-size:.9rem;line-height:1.3;display:block;margin-top:.4rem}
+section{padding:3rem 0 0;scroll-margin-top:5rem}
+section>h2{font:700 1.8rem var(--sans);margin:.3rem 0 1.2rem}
+.grid{display:grid;gap:1rem}
+.tile{border:1px solid var(--line);background:var(--card);border-radius:20px;padding:1.25rem 1.4rem}
+.tile h3{margin:0 0 .3rem;font-size:1.1rem}.tile p{margin:0;color:var(--mute)}
+.tile .when{font:600 .78rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--c1);margin:0 0 .4rem}.tile ul{margin:.5rem 0 0;padding-left:1.1rem;color:var(--mute)}.tile li{margin:.3rem 0}.stack{display:grid;gap:1rem}.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.5rem}.chips span{border:1px solid var(--line);border-radius:99px;padding:.3rem .85rem;font-size:.9rem;color:var(--mute)}.sum{max-width:44rem;color:var(--mute);margin:0 0 1rem}
+#bot{position:fixed;right:1rem;bottom:1rem;z-index:30}
+#fab{width:64px;height:64px;border-radius:50%;border:1px solid var(--c1);background:var(--card);cursor:pointer;box-shadow:0 0 24px color-mix(in srgb,var(--c1) 40%,transparent)}
+#fab svg{width:38px;height:38px;stroke:var(--c1);fill:none;stroke-width:1.8}
+#panel{display:none;position:absolute;right:0;bottom:78px;width:min(21rem,calc(100vw - 2rem));background:var(--card);border:1px solid var(--line);border-radius:20px;padding:1rem}
+#panel.open{display:block}#log{max-height:14rem;overflow:auto;font-size:.95rem;color:var(--mute);margin-bottom:.75rem}
+#log p{margin:.3rem 0}#log .me{color:var(--ink);text-align:right}
+#qs{display:flex;flex-wrap:wrap;gap:.4rem}#qs button{font:500 .85rem var(--sans);color:var(--ink);background:none;border:1px solid var(--line);border-radius:99px;padding:.35rem .8rem;cursor:pointer}
+footer{text-align:center;color:var(--mute);font-size:.9rem;padding:2rem 0}
+@media (min-width:56rem){.hero{grid-template-columns:1.25fr 1fr;align-items:start}.card{order:2;position:sticky;top:6rem}.grid{grid-template-columns:repeat(2,1fr)}}
+@media (prefers-reduced-motion:reduce){.caret{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="brand" href="#top"><b>GOKULESH</b><span class="mono">Cloud Infrastructure</span></a>
+    <div class="seg" role="group" aria-label="Theme">
+      <button data-t="light" aria-pressed="false">Light</button><button data-t="dark" aria-pressed="true">Dark</button>
+    </div>
+    <button class="menu" id="menu" aria-expanded="false" aria-controls="nav" aria-label="Open menu">&#9776;</button>
+  </div>
+  <nav id="nav"><a href="#about">About</a><a href="#experience">Experience</a><a href="#expertise">Expertise</a><a href="#contact">Contact</a></nav>
+</header>
+<main id="top">
+  <div class="hero">
+    <aside class="card">
+      <h2>Gokulesh RY</h2>
+      <span class="mono">Senior Cloud Engineer</span>
+      <p>Cloud Infrastructure &middot; DevOps &middot; IT Operations</p>
+      <div class="icons">
+        <a href="mailto:gokuleshry@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+        <a href="https://www.linkedin.com/in/gokulesh-ry-02587640" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </div>
+      <div class="btns"><a href="resume.pdf" download>Download Resume</a><a class="go" href="#contact">Contact me</a></div>
+    </aside>
+    <div>
+      <div class="chip"><i>&#9889;</i>Welcome to my portfolio</div>
+      <h1 aria-label="I'm Gokulesh, Senior Cloud Engineer."><span id="t1"></span><br><span class="g" id="t2"></span><span class="caret" aria-hidden="true"></span></h1>
+      <div class="loc"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.200 7-11a7 7 0 0 0-14 0c0 4.800 7 11 7 11Z"/><circle cx="12" cy="10" r="2.500"/></svg>Based in Thiruvananthapuram, India.</div>
+      <p class="lede">Cloud Infrastructure and IT Operations professional with <b>8+ years</b> across <b>AWS</b>, <b>Azure</b>, enterprise infrastructure, <b>DevOps</b> delivery, production operations and <b>service continuity</b>.</p>
+      <div class="stats"><div><strong>8+</strong><span>Years of experience</span></div><div><strong>4</strong><span>Professional roles</span></div><div><strong>~3&times;</strong><span>Faster deployments</span></div></div>
+    </div>
+  </div>
+
+  <section id="about"><span class="mono">About</span><h2>Professional summary</h2>
+    <p class="sum">Hands-on experience with Kubernetes, Docker, Terraform, Jenkins, GitLab CI/CD, Linux, Windows Server, VMware, cloud networking, monitoring, incident management, backup and disaster recovery.</p>
+    <p class="sum">I coordinate infrastructure delivery across Development, Testing, UAT and Production, resolve production incidents, improve deployment reliability, establish operational standards and support secure, scalable SaaS environments.</p>
+    <div class="chips"><span>Cloud Infrastructure Management</span><span>AWS</span><span>Microsoft Azure</span><span>DevOps &amp; CI/CD</span><span>Kubernetes</span><span>Docker</span><span>Terraform</span><span>Infrastructure as Code</span><span>Linux &amp; Windows Server</span><span>VMware</span><span>Cloud Networking</span><span>IAM &amp; Security</span><span>Production Operations</span><span>Incident &amp; Escalation Management</span><span>High Availability</span><span>Backup &amp; Disaster Recovery</span><span>Monitoring &amp; Observability</span><span>Release &amp; Deployment Management</span><span>Root Cause Analysis</span><span>Operational Governance</span><span>Technical Documentation</span><span>Cross-functional Collaboration</span><span>SaaS Infrastructure</span></div>
+  </section>
+  <section id="experience"><span class="mono">Experience</span><h2>Where I've worked</h2>
+    <div class="stack">
+      <div class="tile"><p class="when">Mar 2025 to present</p><h3>Senior Cloud Engineer, Talks &amp; Talks</h3><ul>
+        <li>Run AWS and Azure infrastructure for AI-enabled SaaS platforms, focused on stability, security and availability.</li>
+        <li>Coordinate Development, Testing, UAT and Production environments and release readiness with Jenkins and GitLab CI/CD.</li>
+        <li>Cut deployment time from about 30 minutes to about 10 through automation.</li>
+        <li>Own incident response, backup and disaster recovery planning, runbooks and architecture documentation.</li></ul></div>
+      <div class="tile"><p class="when">May 2020 to Mar 2025</p><h3>System Engineer, Saasvaap Techies</h3><ul>
+        <li>Operated Linux, Windows Server, VMware and AWS environments supporting application and IT service delivery.</li>
+        <li>Led incident resolution and supported Jenkins-based CI/CD that reduced manual operational effort.</li>
+        <li>Handled monitoring, backup and recovery, upgrades, server migrations and capacity checks.</li></ul></div>
+      <div class="tile"><p class="when">Jun 2018 to May 2020</p><h3>Server &amp; Network Administrator, SunTec Business Solutions</h3><ul>
+        <li>Administered enterprise servers, virtualization, backup and network infrastructure.</li></ul></div>
+      <div class="tile"><p class="when">Jan 2016 to Jun 2018</p><h3>Systems Engineer, Amrita School of Engineering</h3><ul>
+        <li>Provided L1/L2 infrastructure and end-user support across Active Directory, Windows systems and servers.</li></ul></div>
+      <div class="tile"><p class="when">Education</p><h3>M.Sc., Amrita University</h3><p>B.Sc., Manonmaniam Sundaranar University</p></div>
+    </div>
+  </section>
+  <section id="expertise"><span class="mono">Expertise</span><h2>What I work with</h2>
+    <div class="grid">
+      <div class="tile"><h3>Cloud platforms</h3><p>AWS (EC2, VPC, IAM, S3, Route 53, RDS, CloudWatch, ELB/ALB), Azure, GCP</p></div>
+      <div class="tile"><h3>Containers</h3><p>Kubernetes, Docker</p></div>
+      <div class="tile"><h3>Infrastructure as Code</h3><p>Terraform, AWS CloudFormation</p></div>
+      <div class="tile"><h3>CI/CD</h3><p>Jenkins, GitLab CI/CD, Git</p></div>
+      <div class="tile"><h3>Observability</h3><p>CloudWatch, Prometheus, Grafana, Loki, Tempo, OpenTelemetry, Azure Application Insights</p></div>
+      <div class="tile"><h3>Operations</h3><p>Incident management, root cause analysis, backup and recovery, disaster recovery, high availability, server migration</p></div>
+      <div class="tile"><h3>Networking and security</h3><p>VPC, load balancing, DNS, IAM, security groups, network troubleshooting</p></div>
+      <div class="tile"><h3>Certifications</h3><p>AWS Certified Cloud Practitioner (valid through Jun 2027), CCNA. AWS Solutions Architect in progress.</p></div>
+    </div>
+  </section>
+  <section id="contact"><span class="mono">Contact</span><h2>Let's talk</h2>
+    <p class="lede">Targeting Cloud Infrastructure Manager, DevOps Manager, Cloud Operations Manager and IT Infrastructure &amp; Operations Manager roles. <a href="mailto:gokuleshry@gmail.com"><b>gokuleshry@gmail.com</b></a> or find me on <a href="https://www.linkedin.com/in/gokulesh-ry-02587640"><b>LinkedIn</b></a>.</p>
+  </section>
+  <footer>&copy; <span id="yr"></span> Gokulesh</footer>
+</main>
+
+<div id="bot">
+  <div id="panel" role="dialog" aria-label="Ask about Gokulesh"><div id="log"><p>Hi! Pick a question and I'll answer.</p></div><div id="qs"></div></div>
+  <button id="fab" aria-expanded="false" aria-label="Ask about Gokulesh"><svg viewBox="0 0 24 24"><rect x="5" y="8" width="14" height="11" rx="4"/><path d="M12 8V4M9 13h.01M15 13h.01M9 16.500h6"/><circle cx="12" cy="3.500" r="1"/></svg></button>
+</div>
+
+<script>
+var $=function(s){return document.querySelector(s)};
+$("#yr").textContent=new Date().getFullYear();
+document.querySelectorAll(".seg button").forEach(function(b){b.onclick=function(){
+  document.documentElement.dataset.theme=b.dataset.t;
+  document.querySelectorAll(".seg button").forEach(function(x){x.setAttribute("aria-pressed",x===b)});
+  try{localStorage.setItem("theme",b.dataset.t)}catch(e){}}});
+(function(){var t=document.documentElement.dataset.theme;document.querySelectorAll(".seg button").forEach(function(x){x.setAttribute("aria-pressed",x.dataset.t===t)})})();
+$("#menu").onclick=function(){var o=$("#nav").classList.toggle("open");this.setAttribute("aria-expanded",o)};
+$("#nav").onclick=function(){this.classList.remove("open")};
+var a="I\u2019m Gokulesh RY,",b="Senior Cloud Engineer.";
+if(matchMedia("(prefers-reduced-motion:reduce)").matches){$("#t1").textContent=a;$("#t2").textContent=b}
+else{var i=0,n=a.length+b.length;(function s(){i++;$("#t1").textContent=a.slice(0,i);$("#t2").textContent=i>a.length?b.slice(0,i-a.length):"";if(i<n)setTimeout(s,55)})()}
+var A={"What does he do?":"Senior Cloud Engineer at Talks & Talks, running AWS and Azure infrastructure for AI-enabled SaaS platforms.",
+"Looking for":"Cloud Infrastructure Manager, DevOps Manager, Cloud Operations Manager and IT Infrastructure & Operations Manager roles.",
+"Skills":"Kubernetes, Docker, Terraform, Jenkins, GitLab CI/CD, Linux, cloud networking and observability with Prometheus and Grafana.",
+"Certifications":"AWS Certified Cloud Practitioner and CCNA. Working toward AWS Solutions Architect.",
+"Contact":"Email gokuleshry@gmail.com or use the LinkedIn link on this page."};
+Object.keys(A).forEach(function(q){var c=document.createElement("button");c.textContent=q;c.onclick=function(){
+  var l=$("#log");l.insertAdjacentHTML("beforeend","<p class=me></p><p></p>");
+  l.children[l.children.length-2].textContent=q;l.lastChild.textContent=A[q];l.scrollTop=l.scrollHeight};$("#qs").appendChild(c)});
+$("#fab").onclick=function(){var o=$("#panel").classList.toggle("open");this.setAttribute("aria-expanded",o)};
+</script>
+</body>
+</html>
